@@ -93,7 +93,7 @@ https://soundcloud.com/geierre/only-tonight  | ✓
     /^https?:\/\/(?:www\.)?deezer\.com\/(track|album|playlist)\/(\d+)$/
 
 #### Youtube
-    /^https?:\/\/(?:(?:www|m)\.)?(?:youtube\.com\/watch(?:\?v=|\?.+?&v=)|youtu\.be\/)([a-z0-9_-]+)$/i
+    /^.*(?:(?:youtu\.be\/|v\/|vi\/|u\/\w\/|embed\/)|(?:(?:watch)?\?v(?:i)?=|\&v(?:i)?=))([^#\&\?\n]*).*/i
 
 String | Match
 --- | ---
